@@ -1,0 +1,19 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 329
+  Width = 485
+  object Connect: TPgConnection
+    Username = 'postgres'
+    LoginPrompt = False
+    Database = 'mockcompany'
+    Connected = True
+    Left = 48
+    Top = 32
+    EncryptedPassword = '8FFF9EFF8CFF8CFF88FF90FF8DFF9BFF'
+  end
+  object QrySelect: TPgQuery
+    Connection = Connect
+    Left = 120
+    Top = 32
+  end
+end
